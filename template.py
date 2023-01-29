@@ -6,6 +6,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
 package_name = "deepClassifier"
 
+# Here the list of files that will be created 
 list_of_files = [
    ".github/workflows/.gitkeep",
    f"src/{package_name}/__init__.py", 
@@ -31,7 +32,7 @@ list_of_files = [
    "research/trials.ipynb", 
 ]
 
-# This will create all the folders at the same time, so we avoid the manual work
+# Here the function that will create all the folders at the same time, so we avoid the manual work
 for filepath in list_of_files:
     filepath = Path(filepath)
     filedir, filename = os.path.split(filepath)

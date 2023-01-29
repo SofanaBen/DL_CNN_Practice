@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "FSDS_NOV_deepCNNClassifier"
-AUTHOR_USER_NAME = "c17hawke"
-SRC_REPO = "deepClassifier"
-AUTHOR_EMAIL = "sunny.c17hawke@gmail.com"
+REPO_NAME = "DL_CNN_Practice"
+AUTHOR_USER_NAME = "SofanaBen"
+SRC_REPO = "DL_CNN_Practice"
+AUTHOR_EMAIL = "sofana.benoutiq123@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
@@ -17,7 +17,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small python package for CNN app",
     long_description=long_description,
-    long_description_content="text/markdown",
+    long_description_content="text/markdown", # Shows the type of that long description
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
